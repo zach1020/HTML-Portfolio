@@ -1,0 +1,290 @@
+<html>
+<head>
+    <!--Use Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</head>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Zach Bohl: UX Designer</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#About-Me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#My-Skills">My Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My Work
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#Drive-A-Senior">Case Study: Drive a Senior Northwest Redesign</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#Volun">Case Study: Volun App Design</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#Portfolio">Case Study: Portfolio Design</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="About-Me">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="img\cropped empathy map.png" class="d-block w-100" alt="empathy map">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color:white">Hi, I'm Zach Bohl</h5>
+          <p style="color:white">I'm a UX designer based in Austin, Texas</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img\cropped card sorting.png" class="d-block w-100" alt="feature prioritization matrix">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color:black">My Specialties</h5>
+          <p style="color:black">Qualitative user research, UI design, UX writing and frontend design</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img\cropped protopersonas.png" class="d-block w-100" alt="protopersonas">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color:white">My favorite aspect of design</h5>
+          <p style="color:white">Helping people love the website or app they're using</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- Original carousel
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img\affinity diagram.png" class="d-block w-100" alt="Affinity diagram">
+        <div class="carousel-caption d-none d-md-block">
+            <h4 style="color:black">Hi, I'm Zach Bohl</h4>
+            <p style="color: black">I'm a UX designer based in Austin, TX</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img\empathy map.png" class="d-block w-100" alt="Empathy map">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color:black">My Specialties</h4>
+          <p style="color:black">Qualitative user research, UI design, UX writing and frontend design</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img\user interview data stickies.png" class="d-block w-100" alt="User interview data stickies">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color:black">My Favorite Aspect of Design</h5>
+          <p style="color:black">Helping people love designs and products</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+-->
+</div>
+<br>
+<div id="My-Skills">
+    <h1>My Skills</h1>
+    <h4>My software skills include working in Figma, Github, Slack and Visual Studio Code, among others.</h4>
+    <h4>The roles that I've performed in my projects include qualitative UX researcher, mobile UI designer, desktop UI designer, frontend designer and copy editor, among others.</h4>
+</div>
+
+<br>
+
+<div id="Drive-A-Senior">
+  <h1>Case Study: Drive A Senior Northwest Redesign</h1>
+  <img src="img\d1.jpg" alt="Stock image of Austin">
+  
+  <h4>First Steps/Empathize Phase</h4>
+  <p>The project started with an observation: There are many nonprofits in the Austin, Texas area that provide important services to the community, but, often, the websites of these nonprofits leave a little to be desired. Our team thought it would be great if we could find a nonprofit that we were excited about whose website could use a refresh. We began with a brainstorming session in Miro.</p>
+  
+  <img src="img\d2.png" alt="The results of our selection process">
+  <figcaption>The results of our selection process</figcaption>
+
+  <p>We ended up selecting Drive a Senior Northwest, a nonprofit in Austin that connects seniors with mobility issues to drivers for free. We especially liked this nonprofit because we believed in the cause and we knew that their site could use a little help.</p>
+
+  <img src="img\d3.png" alt="An image of the original website">
+  <figcaption>An image of the original website for Drive A Senior Northwest, a nonprofit in Austin, TX</figcaption>
+
+  <p>We spent time thinking about what could be improved and what we wanted to keep. Afterwards, we decided to conduct user research. We drafted a research plan, and then we interviewed each other. Next, we each conducted one or two interviews with friends, colleagues and family members. We tried to find and interview only people who would use the website we were redesigning, or people who had used similar websites and nonprofits. We conducted the interviews in person and over Zoom. Afterwards, we compiled the qualitative data we received from our users and put the insights on sticky notes in Miro. We learned quite a lot about how people use nonprofits (and what they were looking for in terms of quality) from asking just a few important questions to a few different people.</p>
+
+  <img src="img\d4.png" alt="User insights">
+  <figcaption>The insights we received from our user interviews</figcaption>
+  
+  <p>We then synthesized these beautiful data points into an even more beautiful affinity diagram! This helped us organize the insights we received and focus on the most important elements and features of our redesign. We had a lot of fun with this step, with stickies and cursors flying everywhere. In the end, we were confident that we knew what our users expected from our redesign.</p>
+
+  <img src="img\d5.png" alt="Affinity map">
+  <figcaption>After the dust cleared, we had a nice, neat affinity map</figcaption>
+
+  <p>We then took a break from sticky notes and conducted a brief competitor analysis. We scoured the internet for entities that might have been considered "competitors" to our organization. We knew that we were redesigning a hyperlocal nonprofit's website, but we decided to go big. Uber made an appearance at the top of our list of competitors, as well as other programs that connected people to drivers. We knew we weren't directly competing with these admirable orgs, but the exercise helped us solidify two things: 1) It helped us determine which good ideas from other products that we wanted to include in ours, and 2) It helped us realize what set users of our product apart from users of other products (and what made them special)!</p>
+
+  <img src="img\d6.png" alt="Competitor analysis">
+  <figcaption>Our team's competitor analysis</figcaption>
+
+  <p>After we gained insights from our competitor analysis, we reexamined our affinity map and created a protopersona. Rather, we created two protopersonas that reflected the two main user types of our site. We named them Maria and Doris. We gave each protopersona a goals, demographic information, a backstory and a quote that summarized what they needed form our product. We used information from our affinity map to fill in the details of the protopersonas. We tried to avoid pigeonholing our users with generalizations or useless information. Instead, we extracted the essentials and created two personas that would be our northern star(s) throughout the rest of the project. We brought our empathetic designer/psychologist minds to bear on the issues that our users would be facing. We were pleased with the results.</p>
+
+  <img src="img\d7.png" alt="Protopersonas">
+  <figcaption>Protopersonas for Drive a Senior Northwest Redesign</figcaption>
+
+  <p>Next, we created an empathy map for Maria, the protopersona who represented the main user of Drive a Senior Northwest. We felt that an empathy map would further help to solidify what Maria needed and expected from our site. We found a lot to empathize with after reviewing our affinity map and our protopersonas! One of the biggest factors that we knew we couldn't overlook was that our users (Maria, in this case) expected a website that would provide a sense of security and trust in the nonprofit. A website that wasn't up to modern standards (clean design, adaptable for mobile and desktop, etc.) wouldn't inspire trust in the service. We felt it was our duty, as empathetic designers, to redesign the website to focus on trust and reliability.</p>
+
+  <img src="img\d8.png" alt="Empathy map">
+  <figcaption>Our empathy map for Maria, our primary protopersona. The pain and gain sections in particular were important in developing our design</figcaption>
+
+  <h4>Define Phase</h4>
+  <p>After we finished our empathy map, we created a problem statement...</p>
+
+  <img src="img\d9.png" alt="Problem statement">
+  <figcaption>The problem statement for our project. We piggybacked on Drive a Senior's extant problem statement. This helped up imagine what our redesign could be.</figcaption>
+
+  <p>...and a value proposition...</p>
+
+  <img src="img\d10.png" alt="Value proposition">
+  <figcaption>Protopersonas for Drive a Senior Northwest Redesign</figcaption>
+
+  <P>Both of the aspects of the Define phase helped us focus on what we wanted to accomplish--not in terms of creating value for stakeholders, but in terms of creating a better experience for users.</P>
+
+  <h4>Ideate Phase</h4>
+  <p>We began the Ideate phase with an I Like…I Wish…What If… board. This helped us to transition from picking out what was wrong with the site to finding possible solutions! We were excited to get out our virtual sticky notes again. We made sure to use the insights that we gained from our empathy map to fill in what Maria (our primary protopersona) herself would like and wish for in a redesign.</p>
+  
+  <img src="img\d11.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>We then transferred these stickies to a feature prioritization matrix in order to bring ourselves back down to Earth. Which of these feature ideas were doable? Which of these feature ideas would provide the most value and the best experience? In short--What were we going to implement?</p>
+
+  <img src="img\d12.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>Finally, we created the user flow. The vast majority of what we did up to this point was done together by all of us, but the user flow was specifically done by me. I thought it looked pretty slick…</p>
+
+  <img src="img\d13.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>After that, we did a little card sorting. We wanted to redesign the Drive a Senior Northwest site from the ground up. That included reimagining the links and the website layout. We started by making a sticky note for each link on the homepage, and each link that followed that. We then put all of the stickies in a pile and re-sorted them into our own layout.</p>
+
+  <img src="img\d14.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>After card sorting, we opened Figma and created some user journey maps...</p>
+
+  <img src="img\d15.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>...and a sitemap...</p>
+
+  <img src="img\d16.png" alt="...">
+  <figcaption>...</figcaption>
+
+
+  <p>Additionally, my teammate Lori and I created a storyboard for the overall experience that a user would have with our site.</p>
+
+  <img src="img\d17.png" alt="...">
+  <figcaption>...</figcaption>
+
+
+  <p>The above photos from the Ideate phase were the culmination of three or four full days of hard design work. We were happy with what we produced, and we were ready to finally enter the Prototype phase.</p>
+
+  <h4>Prototype Phase</h4>
+  <p>We wanted to create a mobile-first experience that was adapatable to different screen sizes, so we started with a mobile prototype on paper.</p>
+
+  <img src="img\d18.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>Additionally, we produced a paper desktop prototype and a style guide. We then moved on to the really fun part: digital prototyping!</p>
+  <br>
+  <p>We started in Figma with a mid-fidelity prototype.</p>
+
+  <img src="img\d19.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>Specifically, I worked with another teammate on the mobile prototype, while our other two teammates worked on desktop. We completed these tasks simultaneously and gave each other feedback as we went along.</p>
+
+  <img src="img\d20.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>After we created our mid-fidelity prototypes, we moved to the testing phase.</p>
+  <h4>Testing Phase</h4>
+  <p>We wanted to test our design to make sure that there were no stumbling points for our users. We conducted several user tests in person and over Zoom. The verdict was clear: Our users liked the redesign compared to the old site, but there were a few improvements we could make. One of the biggest takeaways from the process was that our users expected to see the donate and volunteer buttons displayed more prominently. Never a team to sit on our laurels, we moved on to iterate our design using all of the feedback we received from testing.</p>
+  <h4>Iterations</h4>
+  <p>We then moved on to high-fidelity prototyping, complete with the actual copy that we wanted to present on the website. We worked for many hours together on the mobile and desktop portions. For the high-fidelity prototype, my time was mostly spent on the desktop site. Here are a few screenshots of pages that I worked on myself:</p>
+
+  <img src="img\d21.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <img src="img\d22.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <img src="img\d23.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>We wanted to make it easier for users to donate and to volunteer to be drivers, so we made sure to include the donate and volunteer buttons on the header for each page.</p>
+  <br>
+  <p>We wanted the homepage to be the face of Drive a Senior Northwest. What do you think? For reference, here's before: </p>
+  
+  <img src="img\d24.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <p>And here's our final design: </p>
+
+  <img src="img\d25.png" alt="...">
+  <figcaption>...</figcaption>
+
+  <h4>Communicating with the Organization</h4>
+  <p>Throughout the design process, our team was in contact with members of Drive a Senior who helped provide feedback on our design. The conversations we had with them were so helpful! They provided insight into how the organization worked and, thus, how the website worked. We thought at first that Drive a Senior was a service like Uber, where the user booked a ride through the website. But we discovered through conversations with stakeholders that, in fact, Drive a Senior was more like a network that users signed up to be a part of. When a user signed up to be a part of the network, they could contact Drive a Senior and schedule rides in advance based on the volume of volunteers. This insight was crucial, and it guided our redesign.</p>
+  <br>
+  <p>Much to our joy and satisfaction, Drive a Senior Northwest decided to use our redesign for their site!</p>
+
+  <h4>What We Learned</h4>
+  <p>We learned quite a bit from this project! One of the biggest take-homes was that UI design can be an integral part of inspiring trust for a service in its users. We were very pleased that our design was met with approval by members of Drive a Senior, and we learned that collaboration with stakeholders can yield very powerful results! This project presented a lot of new challenges to all of us, because it was only our second real foray into UI design! Overall, we were confident that we provided a design that Drive a Senior loved and would use proudly for time to come.</p>
+</div>
+
+<br>
+
+<div id="Volun">
+    Volun App Design
+</div>
+
+<br>
+
+<div id="Portfolio">
+    Portfolio Design
+</div>
+
+
+
+
+</html>
